@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goblinarinos Image Generator</title>
+    <meta name="description" content="Generate unique Goblinarinos with AI. Include 'GOB' in your prompt, like 'A GOB that looks like Mario'. Customize and bring your Goblinarino ideas to life!">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gob.chatover.wine/">
+    <meta property="og:title" content="Goblinarinos Image Generator">
+    <meta property="og:description" content="Generate unique Goblinarinos with AI. Include 'GOB' in your prompt, like 'A GOB that looks like Mario'. Customize and bring your Goblinarino ideas to life!">
+    <meta property="og:image" content="https://gob.chatover.wine/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gob.chatover.wine/">
+    <meta property="twitter:title" content="Goblinarinos Image Generator">
+    <meta property="twitter:description" content="Generate unique Goblinarinos with AI. Include 'GOB' in your prompt, like 'A GOB that looks like Mario'. Customize and bring your Goblinarino ideas to life!">
+    <meta property="twitter:image" content="https://gob.chatover.wine/og-image.jpg">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
     <style>
         body {
@@ -52,13 +68,34 @@
             height: auto;
             border-radius: 5px;
         }
+.byline {
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.byline a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.byline a:hover {
+    text-decoration: underline;
+}
+   .tip {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-    <h1>Goblinarinos Image Generator</h1>
-    <h2>Include GOB in your prompt</h2>
-    <h3>"A GOB that looks like Mario"</h3>
+    <h1>Goblinarinos Image Generator- brought to you by $Wine</h1>
+    <p class="byline">brought to you by <a href="https://www.chatover.wine" target="_blank">$wine</a></p>
+     <div class="tip">
+            <strong>Tip:</strong> Always include "GOB" in your prompt. For example: "A GOB that looks like Mario"
+       </div>
 
     <form id="imageForm">
         <label for="prompt">Prompt:</label>
